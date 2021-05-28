@@ -37,30 +37,32 @@ A curated list of speaker embedding/verification resources
 - [Triplet-loss](https://omoindrot.github.io/triplet-loss)
 
 ## Benchmarks
-### Good results reported on [Voxceleb1](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/veri_test2.txt), [VoxCeleb1-E](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/list_test_all2.txt) and [VoxCeleb1-H](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/list_test_hard2.txt)
+### The following are good results reported (by the authors) on [Voxceleb1](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/veri_test2.txt), [VoxCeleb1-E](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/list_test_all2.txt) and [VoxCeleb1-H](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/list_test_hard2.txt)
 
-- 0.7712%, 0.8968%(E), 1.637%(H) [DPN68,Res2Net50](https://arxiv.org/pdf/2011.00200.pdf), by AISpeech 2020,  Dataset: Voxceleb2 dev, Librispeech
-- 1.08%  [ResNet152](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/data_workshop_2020/veridas.pdf), by Veridas
-- 0.70%, -, - [], RIRs + Musan
-- 0.888%,1.133%,2.008%, [Resnet](https://arxiv.org/pdf/2010.12731.pdf)
-- 0.792%,1.042%,1.959%, [ECAPA-TDNN](https://arxiv.org/pdf/2010.12731.pdf)
--2.1% [IDLAB](https://arxiv.org/pdf/2010.12468.pdf)
+
+Public leaderboard (continuously updating...)
+| Name |  feature,model,activation/loss |  VoxCeleb1| VoxCeleb1-E| VoxCeleb1-H| Link |Affiliation|Year |
+| ---- | -------- | -------- | ------- | -------  |-------  |-------  |--------  |
+|X205| DPN68,Res2Net50| 0.7712%| 0.8968%| 1.637% |[report](https://arxiv.org/pdf/2011.00200.pdf) | AISpeech | 2020|
+|Veridas| ResNet152|1.08%|-|-|[report](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/data_workshop_2020/veridas.pdf)|das-nano|2020
+|DKU-DukeECE | Resnet,ECAPA-TDNN| 0.888%|1.133%|2.008%|[report](https://arxiv.org/pdf/2010.12731.pdf)|Duke University|2020|
+|IDLAB | Resnet,ECAPA-TDNN| 2.1%|-|-|[report](https://arxiv.org/pdf/2010.12468.pdf)|Ghent University -|2020|
 
 
 ## Datasets
 - [OpenSLR]()
 - Mostly used datasets: 
-- TIMIT
-- Free ST
-- NIST SRE
-- AIShell-1
-- AIShell-2
-- AIShell-3
-- AIShell-4
-- HI-MIA
-- SITW
-- Voxceleb1&2
-- Cn-Celeb1&2
+- [TIMIT](https://catalog.ldc.upenn.edu/LDC93S1): A small dataset for speaker and asr, non-free
+- [Free ST](https://www.openslr.org/38/): for speaker and asr, free. 
+- [NIST SRE](https://sre.nist.gov/) NIST Speaker Recognition Evaluation, non-free
+- [AIShell-1](https://www.openslr.org/33/)
+- [AIShell-2](http://www.aishelltech.com/aishell_2): free for education, non-free for commercial
+- [AIShell-3](https://www.openslr.org/93/): free, for speaker, asr and tts
+- [AIShell-4](TBD)
+- [HI-MIA](https://www.openslr.org/85/): free, for far-field text-dependent  speaker verification and  keyword spotting
+- [SITW](http://www.speech.sri.com/projects/sitw/) Speakers in the Wild, 
+- [Voxceleb 1&2](https://www.openslr.org/82/), Celebrity interview video/audio extracted from Youtube
+- [Cn-Celeb 1&2](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html), Multi-genres speaker dataset in the wild, utterances are from chinese celebrities. 
 
 ## Challenges
 - [VoxCeleb Speaker Recognition Challenge 2019](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/competition2019.html)
@@ -68,4 +70,5 @@ A curated list of speaker embedding/verification resources
 - [VoxCeleb Speaker Recognition Challenge 2021](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/competition2021.html)
 - [Short-duration Speaker Verification (SdSV) Challenge 2020](https://sdsvc.github.io/2020/)
 - [Short-duration Speaker Verification (SdSV) Challenge 2021](https://sdsvc.github.io/)
+- [CTS Speaker Recognition Challenge 2020](https://sre.nist.gov/cts-challenge)
 
