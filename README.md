@@ -14,6 +14,8 @@ A curated list of speaker embedding/verification resources
 - \[09\] [Front-end factor analysis for speaker verification](http://groups.csail.mit.edu/sls/archives/root/publications/2010/Dehak_IEEE_Transactions.pdf), 2011, IEEE TASLP,  the '<b>i-vector</b>' paper from Johns Hopkins 
 - \[10\] [TDNN-UBM Time delay deep recognition neural network-based universal background models for speaker](https://www.danielpovey.com/files/2015_asru_tdnn_ubm.pdf) , 2015 
 - \[11\] [Deep neural networks for small footprint text-dependent speaker verification](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41939.pdf), The '<b>D-vector</b>' paper from Johns Hopkins 
+- \[12\] [Analysis of Score Normalization in Multilingual Speaker Recognition](http://www.fit.vutbr.cz/research/groups/speech/publi/2017/matejka_interspeech2017_IS170803.pdf), Interspeech 2017, The S-norm paper, useful for score normalization 
+
 
 ## Benchmarks (Voxceleb1)
 
@@ -77,3 +79,20 @@ Commonly-used speaker datasets:
 
 ### More-recent papers
 - [Attention Back-end](https://arxiv.org/pdf/2104.01541.pdf), Compare PLDA and cosine with proposed attention Back-end, model: TDNN, Resnet, data: cn-celeb
+
+
+### Wining solutions of Completions
+#### VoxSRC2019
+- Rank 1:  FBank, "r-vectors" using resnet, AAM loss. From Brno University of Technolog, [REPORT](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/data_workshop/BUT_Zeinali_VoxSRC.pdf)
+- Rank 2: 80-dim FBank features, E-TDNN/F-TDNN models, various classification loss including softmax/AM-softmax/PLDA-softmax. From Johns Hopkins University, [REPORT](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/data_workshop/JHU-HLTCOE_VoxSRC.pdf)
+- Rank 3: FBank, resnet + attentive pooling + Phonetic attention, BLSTM + ResNET, loss unclear(?). From Microsoft, [REPORT](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/data_workshop/VoxSRC_TZ_microsoft.pdf)
+
+
+#### VoxSRC2020
+- Rank 1: 60-dim log-FBank, ECAPA-TDNN/SE-ResNet34, S-Norm, AAM-Softmax. From IDLab, [REPORT](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/data_workshop_2020/participants/JTBD.pdf)
+- Rank 2: 40-dim FBank/mean-normalized, no VAD, resnet/Res2Net, S-Norm, CM-Softmax. From AI Speech, [REPORT](https://arxiv.org/pdf/2011.00200.pdf), kaldi [recipe](https://github.com/kaldi-asr/kaldi/tree/master/egs/voxceleb) for data-aug
+- Rank 3: Report not available
+
+
+
+
