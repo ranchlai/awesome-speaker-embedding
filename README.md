@@ -48,7 +48,7 @@ Commonly-used speaker datasets:
 - [Cn-Celeb 1&2](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html), Multi-genres speaker dataset in the wild, utterances are from chinese celebrities. 
 
 ## Challenges
-- [VoxCeleb Speaker Recognition Challenge (VoxSRC 2019)](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/competition2019.html)
+- [VoxCeleb Speaker Recognition Challenge (VoxSRC 2019)](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/competition2019.html) [report](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/files/VoxSRC19.pdf)
 - [VoxCeleb Speaker Recognition Challenge (VoxSRC 2020)](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/competition2020.html)
 - [VoxCeleb Speaker Recognition Challenge (VoxSRC 2021)](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/competition2021.html)
 - [Short-duration Speaker Verification (SdSV) Challenge 2020](https://sdsvc.github.io/2020/)
