@@ -58,6 +58,7 @@ Commonly-used speaker datasets:
 
 ## Great Talks / Tutorials
 - [X-vectors: Neural Speech Embeddings for Speaker Recognition](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/data_workshop_2020/keynote/daniel_talk.mp4), Daniel Garcia-Romero, 2020
+- [2020声纹识别研究与应用学术讨论会](https://hub.baai.ac.cn/view/4289)
 
 
 
@@ -71,7 +72,8 @@ Commonly-used speaker datasets:
 |VGGVox\[4\]|mel+VGG/Resnet+softmax/Pair-wise contrastive|Yes|voxceleb1&2 | [Matconvnet](https://github.com/a-nagrani/VGGVox) |
 |GE2E\[5\]|Log-fbank + LSTM + GE2E-loss|Yes| Ok-Google| [pytorch](https://github.com/HarryVolek/PyTorch_Speaker_Verification),[Tensorflow](https://github.com/Janghyun1230/Speaker_Verification) |
 
-## Other resources
+## Tools/Frameworks/libraries
+- [asv-subtools](https://github.com/Snowdar/asv-subtools)  An Open Source Tools based on Pytorch and Kaldi for speaker recognition/language identification, XMU Speech Lab. 
 - [Resemblyzer](https://github.com/resemble-ai/Resemblyzer), high-level representation of a voice through a deep learning model (referred to as the voice encoder).
 - [voxceleb](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/) audio-visual dataset consisting of short clips of human speech, extracted from interview videos uploaded to YouTube
 - [Triplet-loss](https://omoindrot.github.io/triplet-loss) Triplet Loss and Online Triplet Mining in TensorFlow. 
