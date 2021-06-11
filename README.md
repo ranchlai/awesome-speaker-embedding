@@ -77,7 +77,8 @@ Commonly-used speaker datasets:
 - [Resemblyzer](https://github.com/resemble-ai/Resemblyzer), high-level representation of a voice through a deep learning model (referred to as the voice encoder).
 - [voxceleb](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/) audio-visual dataset consisting of short clips of human speech, extracted from interview videos uploaded to YouTube
 - [Triplet-loss](https://omoindrot.github.io/triplet-loss) Triplet Loss and Online Triplet Mining in TensorFlow. 
-- [Res2Net](https://github.com/Res2Net/Res2Net-PretrainedModels), The Res2net architecture used commonly in VoxCeleb speaker recognition challenge. 
+- [Res2Net](https://github.com/Res2Net/Res2Net-PretrainedModels) The Res2net architecture used commonly in VoxCeleb speaker recognition challenge. 
+- [voxceleb_trainer](https://github.com/clovaai/voxceleb_trainer) A very good speaker framework written in pytorch with pretrained models. 
 
 ### More-recent papers
 - [Attention Back-end](https://arxiv.org/pdf/2104.01541.pdf), Compare PLDA and cosine with proposed attention Back-end, model: TDNN, Resnet, data: cn-celeb
