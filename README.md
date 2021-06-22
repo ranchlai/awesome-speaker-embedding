@@ -81,6 +81,7 @@ Commonly-used speaker datasets:
 - [voxceleb_trainer](https://github.com/clovaai/voxceleb_trainer) A very good speaker framework written in pytorch with pretrained models. 
 - [Speechbrain](https://github.com/speechbrain/speechbrain/tree/develop/recipes/VoxCeleb/SpeakerRec)  Voxceleb recipe. 
 - [kaldi](https://github.com/kaldi-asr/kaldi/tree/master/egs/voxceleb) Kaldi recipe for voxceleb. 
+- [pytorch_xvectors](https://github.com/manojpamk/pytorch_xvectors) pytorch implementation of x-vectors. 
 ### More-recent papers
 - [Attention Back-end](https://arxiv.org/pdf/2104.01541.pdf), Compare PLDA and cosine with proposed attention Back-end, model: TDNN, Resnet, data: cn-celeb
 
