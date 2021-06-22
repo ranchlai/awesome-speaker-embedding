@@ -17,7 +17,7 @@ A curated list of speaker embedding/verification resources
 - \[12\] [Analysis of Score Normalization in Multilingual Speaker Recognition](http://www.fit.vutbr.cz/research/groups/speech/publi/2017/matejka_interspeech2017_IS170803.pdf), Interspeech 2017, The S-norm paper, useful for score normalization 
 
 
-## Benchmarks (Voxceleb1)
+## Benchmarks (not very accurate)
 
 Results reported (by the authors) on [Voxceleb1](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/veri_test2.txt), [VoxCeleb1-E](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/list_test_all2.txt) and [VoxCeleb1-H](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/list_test_hard2.txt).
 
@@ -60,19 +60,12 @@ Commonly-used speaker datasets:
 - [X-vectors: Neural Speech Embeddings for Speaker Recognition](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/data_workshop_2020/keynote/daniel_talk.mp4), Daniel Garcia-Romero, 2020
 - [2020声纹识别研究与应用学术讨论会](https://hub.baai.ac.cn/view/4289)
 
-
-
-## Code 
-
-| Name |  feature-model-activation/loss | Pre-trained | Datasets|  Link |
-| ---- | -------- | -------- | ------- | -------  |
-| DeepSpeaker \[1\] |  FBank + ResCNN+ Triplet/softmax | Yes |librispeech|  [tensorflow](https://github.com/philipperemy/deep-speaker]) |
-|3D CNN\[2\]| MFEC(MFCC)+3DCNN+softmax| No| WVU-Multimodal |  [tensorflow](https://github.com/astorfi/3D-convolutional-speaker-recognition)|
-|SincNet\[3\]|raw-wav/sincnet filters+LayerNorm+CNN/DNN+softmax|No|Librispeech|[pytorch](https://github.com/mravanelli/SincNet) [speechbrain](https://github.com/speechbrain/speechbrain)|
-|VGGVox\[4\]|mel+VGG/Resnet+softmax/Pair-wise contrastive|Yes|voxceleb1&2 | [Matconvnet](https://github.com/a-nagrani/VGGVox) |
-|GE2E\[5\]|Log-fbank + LSTM + GE2E-loss|Yes| Ok-Google| [pytorch](https://github.com/HarryVolek/PyTorch_Speaker_Verification),[Tensorflow](https://github.com/Janghyun1230/Speaker_Verification) |
-
-## Tools/Frameworks/libraries
+## Code/Tools/Frameworks/Libraries
+- [VGGVox](https://github.com/a-nagrani/VGGVox) The first baseline system for voxceleb dataset, originally implementated in Matlab.
+- [DeepSpeaker](https://github.com/philipperemy/deep-speaker]) An End-to-End Neural Speaker Embedding System.
+- [SincNet](https://github.com/mravanelli/SincNet), also in [speechbrain](https://github.com/speechbrain/speechbrain)
+- [3D CNN](https://github.com/astorfi/3D-convolutional-speaker-recognition) TensorFlow implementation of 3D Convolutional Neural Networks for Speaker Verification 
+- [GE2E](https://github.com/HarryVolek/PyTorch_Speaker_Verification), implementation is also in [tensorlow](https://github.com/Janghyun1230/Speaker_Verification) 
 - [asv-subtools](https://github.com/Snowdar/asv-subtools)  An Open Source Tools based on Pytorch and Kaldi for speaker recognition/language identification, XMU Speech Lab. 
 - [Resemblyzer](https://github.com/resemble-ai/Resemblyzer), high-level representation of a voice through a deep learning model (referred to as the voice encoder).
 - [voxceleb](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/) audio-visual dataset consisting of short clips of human speech, extracted from interview videos uploaded to YouTube
@@ -82,11 +75,13 @@ Commonly-used speaker datasets:
 - [Speechbrain](https://github.com/speechbrain/speechbrain/tree/develop/recipes/VoxCeleb/SpeakerRec)  Voxceleb recipe. 
 - [kaldi](https://github.com/kaldi-asr/kaldi/tree/master/egs/voxceleb) Kaldi recipe for voxceleb. 
 - [pytorch_xvectors](https://github.com/manojpamk/pytorch_xvectors) pytorch implementation of x-vectors. 
+
 ### More-recent papers
 - [Attention Back-end](https://arxiv.org/pdf/2104.01541.pdf), Compare PLDA and cosine with proposed attention Back-end, model: TDNN, Resnet, data: cn-celeb
 
 
-### Wining solutions of Completions
+### Wining solutions of Challenges
+
 #### VoxSRC2019
 - Rank 1:  FBank, "r-vectors" using resnet, AAM loss. From Brno University of Technolog, [REPORT](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/data_workshop/BUT_Zeinali_VoxSRC.pdf)
 - Rank 2: 80-dim FBank features, E-TDNN/F-TDNN models, various classification loss including softmax/AM-softmax/PLDA-softmax. From Johns Hopkins University, [REPORT](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/data_workshop/JHU-HLTCOE_VoxSRC.pdf)
@@ -98,6 +93,7 @@ Commonly-used speaker datasets:
 - Rank 2: 40-dim FBank/mean-normalized, no VAD, resnet/Res2Net, S-Norm, CM-Softmax. From AI Speech, [REPORT](https://arxiv.org/pdf/2011.00200.pdf), kaldi [recipe](https://github.com/kaldi-asr/kaldi/tree/master/egs/voxceleb) for data-aug
 - Rank 3: Report not available
 
+Please let me know if your code/repo is not listed here (ranchlai at 163.com)
 
 
 
