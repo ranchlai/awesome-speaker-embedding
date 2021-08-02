@@ -27,7 +27,7 @@ Voxceleb1 public leaderboard (continuously updating...)
 |X205| DPN68,Res2Net50| 0.7712%| 0.8968%| 1.637% |[report](https://arxiv.org/pdf/2011.00200.pdf) | AISpeech | 2020|
 |Veridas| ResNet152|1.08%|-|-|[report](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/data_workshop_2020/veridas.pdf)|das-nano|2020
 |DKU-DukeECE | Resnet,ECAPA-TDNN| 0.888%|1.133%|2.008%|[report](https://arxiv.org/pdf/2010.12731.pdf)|Duke University|2020|
-|IDLAB | Resnet,ECAPA-TDNN| 2.1%|-|-|[report](https://arxiv.org/pdf/2010.12468.pdf)|Ghent University -|2020|
+|IDLAB | Resnet,ECAPA-TDNN| -|-|-|[report](https://arxiv.org/pdf/2010.12468.pdf)|Ghent University -|2020|
 
 ## Must-read technical reports
 
