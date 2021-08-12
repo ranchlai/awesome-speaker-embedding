@@ -21,13 +21,14 @@ A curated list of speaker embedding/verification resources
 
 Results reported (by the authors) on [Voxceleb1](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/veri_test2.txt), [VoxCeleb1-E](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/list_test_all2.txt) and [VoxCeleb1-H](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/list_test_hard2.txt).
 
-Voxceleb1 public leaderboard (continuously updating...)
+Voxceleb1 public results (continuously updating...)
 | Name |  feature,model,activation/loss |  VoxCeleb1| VoxCeleb1-E| VoxCeleb1-H| Link |Affiliation|Year |
 | ---- | -------- | -------- | ------- | -------  |-------  |-------  |--------  |
 |X205| DPN68,Res2Net50| 0.7712%| 0.8968%| 1.637% |[report](https://arxiv.org/pdf/2011.00200.pdf) | AISpeech | 2020|
 |Veridas| ResNet152|1.08%|-|-|[report](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/data_workshop_2020/veridas.pdf)|das-nano|2020
 |DKU-DukeECE | Resnet,ECAPA-TDNN| 0.888%|1.133%|2.008%|[report](https://arxiv.org/pdf/2010.12731.pdf)|Duke University|2020|
 |IDLAB | Resnet,ECAPA-TDNN| -|-|-|[report](https://arxiv.org/pdf/2010.12468.pdf)|Ghent University -|2020|
+|speechbrain | ECAPA-TDNN| 0.69% |-|-|[link](https://github.com/speechbrain/speechbrain/tree/develop/recipes/VoxCeleb/SpeakerRec)| -|2021|
 
 ## Must-read technical reports
 
